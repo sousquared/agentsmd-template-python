@@ -35,9 +35,9 @@ Codex MCP が動かないか 1 分以上応答がない場合は Codex コマン
 | カテゴリ                                                | 用途           | 主要ファイル                                                                                                                                                                                                                                                          |
 | ------------------------------------------------------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **[エンジニアリング原則](.docs/00-core-principles.md)** | 常に参照       | 思考と成熟、シンプルな実装、安定した基盤、プロセスとコミュニケーション                                                                                                                                                                                                |
-| **[コーディング規約](.docs/01-coding-standards/)**      | コーディング時 | [命名規則](.docs/01-coding-standards/naming-conventions.md)、[コード構造](.docs/01-coding-standards/code-structure.md)、[Docstring ガイド](.docs/01-coding-standards/docstring-guide.md)                                                                              |
+| **[コーディング規約](.docs/01-coding-standards/)**      | コーディング時 | [命名規則](.docs/01-coding-standards/naming-conventions.md)、[コード構造](.docs/01-coding-standards/code-structure.md)、[型アノテーション](.docs/01-coding-standards/type-annotations.md)、[Docstring ガイド](.docs/01-coding-standards/docstring-guide.md)                                                                              |
 | **[ワークフロー・プロセス](.docs/02-workflow/)**        | 開発プロセス時 | [MCP 使用](.docs/02-workflow/mcp-usage.md)、[PR 作成](.docs/02-workflow/pr-workflow.md)、[Git ワークフロー](.docs/02-workflow/git-workflow.md)、[TDD・DDD ワークフロー](.docs/02-workflow/tdd-ddd-workflow.md)、[設計記録](.docs/02-workflow/documentation-policy.md) |
-| **[ドメイン固有](.docs/03-domain-specific/)**           | ドメイン作業時 | プロジェクト固有のドメイン知識を追加                                                                                                                                                                                                                                   |
+| **[ドメイン固有](.docs/03-domain-specific/)**           | ドメイン作業時 | プロジェクト固有のドメイン知識を追加                                                                                                                                                                                                                                  |
 | **[リファレンス](.docs/04-reference/)**                 | 必要時参照     | [セキュリティ](.docs/04-reference/security.md)、[ビルド＆テスト](.docs/04-reference/build-test.md)、[ライブラリガイド](.docs/04-reference/library-guides.md)、[チェックリスト](.docs/04-reference/checklists.md)                                                      |
 
 ### 想定ユースケース
@@ -56,4 +56,3 @@ Codex MCP が動かないか 1 分以上応答がない場合は Codex コマン
 - 冗長性を排除し、簡潔で密度の濃い文書を維持
 - 設計詳細はコードと PR に記録、AGENTS.md はエントリーポイントとして最小限に保つ
 - 知識ベースの構造は`.docs/README.md`を参照
-
